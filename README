@@ -18,6 +18,7 @@ Features include
 - External button board for flexible enclosure design
 - ATMEGA8U2 for USB -> Serial
 - Logic level shifter for XBEE
+- Switch for XBEE (no need to unplug XBEE due to shared serial line)
 - 5v switching step up regulator (based on MintyBoost)
 - 3v3 LDO for XBEE
 - All features found on DIY Drones Ardustation
