@@ -1,0 +1,27 @@
+By Colin G
+02/10/2011
+
+Thanks to
+- DIY Drones
+- Adafruit
+- Sparkfun
+
+Contains eagle files for ArdustationUno. A Ground Control Station (GCS) arduino-compatible board, utilizing the same pin-outs as DIY Drones' Ardustation.
+
+The required button board can be found separately and plugs into four of the six pins on the ATMEGA328p ISP header (GND, MOSI, MISO, SCK).
+
+The header/jumper near the LiPo JST connector allows an external power switch.
+
+Features include
+- Powered by single cell LiPo
+- Onboard USB Charger
+- External button board for flexible enclosure design
+- ATMEGA8U2 for USB -> Serial
+- Logic level shifter for XBEE
+- 5v switching step up regulator (based on MintyBoost)
+- 3v3 LDO for XBEE
+- All features found on DIY Drones Ardustation
+
+Future possible improvements
+- LCD Header doesn't line up exactly, so requires wires instead of headers for connection (see picture)
+- All LEDs are SMT, no easy options for breaking out to button board
